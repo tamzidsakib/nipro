@@ -1,0 +1,460 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*common start*/
+body{
+	padding-top: 96px;
+}
+/*common end*/
+
+/*header start*/
+.logo{
+	font-size: 25px;
+}
+.menu{
+	font-size: 15px;
+}
+.menu ul li a{
+    padding: 5px 0px !important;
+	text-align: right !important;
+}
+.c_dmenu{
+	min-width: 250px;
+	
+}
+.c_dmenu[data-bs-popper] {
+    top: 170%;
+    left: -15px;
+}
+/*header end*/
+
+/*slider start*/
+.s_item{
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+.s_item h1 {
+    font-size: 27px;
+    
+}
+
+.s_item p{
+    font-size: 15px !important;
+    
+}
+
+/*slider end*/
+
+/*service start*/
+.c_arrow {
+    width: 1.2px;
+    height: 30px;
+}
+.c_h1 {
+    margin: 15px 0 30px;
+    color: #333333;
+}
+.s_p{
+	font-size: 15px;
+}
+.s_single {
+    margin-top: 65px;
+}
+.s_single p{
+	font-size: 15px;
+}
+
+/*service end*/
+
+/*about start*/
+.a_img {
+	margin-bottom: 25px;
+    text-align: center;
+}
+.a_content{
+    text-align: center;
+}
+.a_content p{
+    margin: 20px 0;
+    font-size: 15px;
+}
+.a_content a{
+	transform: scale(0.8);
+}
+/*about end*/
+
+/*recent start*/
+.c_navtab {
+    margin-top: 0px;
+}
+.nav_btn {
+    margin: 0px 54px;
+}
+/*recent end*/
+
+/*why start*/
+.s_why h2 {
+    margin-left: 10px;
+}
+/*why end*/
+
+/*buy start*/
+.b_p{
+    text-align: center;
+} 
+.b_button{
+    margin: 0 auto;
+}
+/*buy end*/
+
+/*slider2 start*/
+.s2_content {
+    height: 775px;
+}
+.s2_img{
+    text-align: center;
+}
+.s2_quote {
+    opacity: 0;
+}
+.s2_text{
+    text-align: center;
+}
+.s2_text h2 {
+    margin-top: 10px;
+}
+.s2b_height {
+    height: 50px !important;
+}
+.s2_control{
+    writing-mode: horizontal-tb;
+    text-orientation: unset;
+}
+
+.s2_btn{
+    writing-mode: horizontal-tb;
+    text-orientation: unset;
+}
+.s2_bar {
+    
+    writing-mode: horizontal-tb;
+    text-orientation: unset;
+}
+/*slider2 end*/
+
+/*footer start*/
+.l_foot p {
+    margin: 15px 0 0;
+    }
+.r_foot ul {
+    margin: 30px 0;
+}
+.r_foot ul li {
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+/*footer end*/
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*common start*/
+body{
+	padding-top: 96px;
+}
+/*common end*/
+/*header start*/
+.logo{
+	font-size: 25px;
+}
+.menu{
+	font-size: 15px;
+}
+.menu ul li a{
+    padding: 5px 0px !important;
+	text-align: right !important;
+}
+.c_dmenu{
+	min-width: 300px;
+	
+}
+
+.c_dmenu[data-bs-popper] {
+    top: 170%;
+    left: -15px;
+}
+/*header end*/
+
+/*slider start*/
+.s_item h1 {
+    font-size: 35px;
+    
+}
+.s_item p{
+    font-size: 15px !important;
+    
+}
+/*slider end*/
+
+/*service start*/
+.c_arrow {
+    width: 1.5px;
+    height: 35px;
+}
+.c_h1 {
+    margin: 20px 0 40px;
+    color: #333333;
+}
+.s_single {
+    margin-top: 80px;
+}
+/*service end*/
+
+/*about start*/
+.a_img {
+	margin-bottom: 25px;
+    text-align: center;
+}
+.a_content{
+    text-align: center;
+}
+.a_content p{
+    margin: 20px 0;
+}
+/*about end*/
+
+/*why start*/
+.s_why h2 {
+    margin-left: 10px;
+}
+/*why end*/
+
+/*slider2 start*/
+.s2_content {
+    height: 650px;
+}
+.s2_img{
+    text-align: center;
+}
+.s2_quote {
+    left: 125px;
+}
+.s2_text{
+    text-align: center;
+}
+
+.s2_text h2 {
+    margin-top: 10px;
+}
+.s2b_height {
+    height: 50px !important;
+}
+.s2_control{
+    writing-mode: horizontal-tb;
+    text-orientation: unset;
+}
+
+.s2_btn{
+    writing-mode: horizontal-tb;
+    text-orientation: unset;
+}
+.s2_bar {
+    
+    writing-mode: horizontal-tb;
+    text-orientation: unset;
+}
+/*slider2 end*/
+
+/*footer start*/
+.l_foot p {
+    margin: 15px 0 0;
+    }
+.r_foot ul {
+    margin: 30px 0;
+}
+.r_foot ul li {
+    margin-bottom: 5px;
+    display: block;
+}
+/*footer end*/
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/*header start*/
+.menu ul li a{
+    padding: 5px 0px !important;
+	text-align: right !important;
+}
+.c_dmenu[data-bs-popper] {
+	top: -17%;
+    left: 160px;
+}
+/*header end*/
+
+/*slider start*/
+.s_item h1 {
+    font-size: 37px;
+    
+}
+/*slider end*/
+
+/*service start*/
+.c_arrow {
+    width: 1.8px;
+    height: 40px;
+}
+.c_h1 {
+    margin: 20px 0 40px;
+    color: #333333;
+}
+.s_single {
+    margin-top: 80px;
+}
+/*service end*/
+
+/*about start*/
+.a_img {
+	margin-bottom: 30px;
+    text-align: center;
+}
+.a_content{
+    text-align: center;
+}
+.a_content p{
+    margin: 25px 0;
+}
+/*about end*/
+
+/*recent start*/
+.nav_btn {
+    margin: 0 5px;
+    }
+/*recent end*/
+
+/*slider2 start*/
+.s2_content {
+    height: 360px;
+    padding: 30px 20px;
+    }
+.co {
+    margin: 5px 0;
+}
+.dev {
+    margin: 0 0 15px;
+    }
+.s2_control {
+    padding: 0;
+}
+/*slider2 end*/
+
+/*footer start*/
+.l_foot p {
+    margin: 15px 0 0;
+    }
+.r_foot ul {
+    margin: 30px 0;
+}
+.r_foot ul li {
+    margin-bottom: 5px;
+    display: block;
+}
+/*footer end*/
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/*about start*/
+.a_content h1 {
+    font-size: 25px;  
+}
+/*about end*/
+
+/*slider start*/
+.s_item h1 {
+    font-size: 50px; 
+}
+/*slider end*/
+
+/*service satrt*/
+.c_h1{
+    font-size: 28px;
+}
+/*service end*/
+/*about start*/
+.a_img {
+    margin-top: 20px;
+    transform: scale(0.8);
+}
+.a_content p{
+    margin: 20px 0;
+}
+/*about end*/
+}
+
+/*pricing start*/
+.dollar{
+    font-size: 29px;
+}
+/*pricing end*/
+
+/*contact start*/
+.con_title {
+    
+}
+
+
+/*contact end*/
+
+/*footer start*/
+/*top*/
+.f_content ul li {
+    width: 40px;
+    height: 40px;
+}
+.f_content ul li a {
+    font-size: 22px;
+    }
+
+ /*bottom   */
+ .l_foot p {
+   font-size: 15px !important;
+}
+ .r_foot ul li a {
+    font-size: 15px !important;
+}
+ .r_foot ul li {
+    margin-right: 23px !important;
+}
+/*footer end*/
+
+ /* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+/*contact start*/
+
+.con_button {
+    padding: 10px 20px;
+    }
+/*contact end*/
+
+}
+
+ /*Extra extra large devices (extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+/*contact start*/
+.con_title {
+    margin: -20px auto 0;
+    width: 240px;
+}
+.con_title h1 {
+    font-size: 30px;
+}
+.con_button {
+    padding: 10px 20px;
+    }
+/*contact end*/
+ }
